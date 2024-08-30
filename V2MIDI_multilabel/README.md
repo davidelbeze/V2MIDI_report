@@ -26,6 +26,14 @@ This folder contains the code for the multilabel classification approach of the 
 2. Use `v2midi_train.slurm` to submit the training job on a SLURM-managed cluster.
 3. For inference, use `inference.py` after modifying the paths to your model and input video.
 
+## Dataset
+
+This model is trained on the MIDIvideo dataset, which is hosted on Hugging Face due to its large size:
+
+🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
+
+Before running the training scripts, ensure you have downloaded the necessary portions of the dataset. Refer to the dataset's README on Hugging Face for download and usage instructions.
+
 ## Note
 
 This is an active research project. We are continuously working on improving the model and will be updating this repository with new results, statistics, and improvements. Stay tuned for updates!
