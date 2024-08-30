@@ -72,6 +72,7 @@ The script creates a structured dataset with the following for each MIDI file:
 
 The output is organized in this structure:
 
+```plaintext
 midi_parseq_dataset/
     midi_parseq_rendered_1/
         midi_1.mid
@@ -82,6 +83,7 @@ midi_parseq_dataset/
         midi_2_parseq_config.json
         midi_2_parseq_rendered.json
     ...
+```
 
 This output is ready for the video generation phase of the V2MIDI project.
 
