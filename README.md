@@ -38,6 +38,14 @@ Each folder contains detailed README files with specific instructions and requir
 - Assisting in music video production and visual album creation
 - Developing new tools for music composition and visual art creation
 
+## 🗂️ MIDIvideo Dataset
+
+Due to its large size, the complete MIDIvideo dataset is hosted on Hugging Face:
+
+🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
+
+This dataset contains paired MIDI files and AI-generated synchronized videos. For detailed information on the dataset structure and download instructions, please refer to the README file on the Hugging Face page.
+
 ## 🔬 Ongoing Research
 
 V2MIDI is an active research project. We're continuously refining our models, exploring new applications, and pushing the boundaries of AI in creative expression. Stay tuned for regular updates, new results, and exciting developments!
