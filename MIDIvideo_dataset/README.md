@@ -44,3 +44,16 @@ For detailed instructions on each component, please refer to the README files wi
 - PyTorch with CUDA support
 - Stable Diffusion and Deforum installations
 - Access to multi-GPU system or supercomputer for large-scale generation
+
+## Full Dataset Access
+
+The complete MIDIvideo dataset, containing all paired MIDI files and synchronized videos, is too large for GitHub storage. It is hosted on Hugging Face:
+
+🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
+
+Please visit the Hugging Face page for:
+- Detailed dataset structure information
+- Download instructions
+- Usage guidelines
+
+The examples and scripts in this folder demonstrate the dataset creation process and provide samples, but for the full dataset, refer to the Hugging Face repository.
