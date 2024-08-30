@@ -33,6 +33,14 @@ This binary model served as a proof of concept, demonstrating the viability of o
 
 Adjust paths and parameters in the scripts as needed for your environment.
 
+## Dataset
+
+This model is trained on the MIDIvideo dataset, which is hosted on Hugging Face due to its large size:
+
+🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
+
+Before running the training scripts, ensure you have downloaded the necessary portions of the dataset. Refer to the dataset's README on Hugging Face for download and usage instructions.
+
 ## Usage
 
 To train the model:
