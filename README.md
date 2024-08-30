@@ -31,20 +31,18 @@ V2MIDI is a comprehensive system that transforms visual content into synchronize
 
 Each folder contains detailed README files with specific instructions and requirements.
 
+Due to its large size, the complete MIDIvideo dataset is hosted on Hugging Face:
+
+🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
+
+This dataset contains paired MIDI files and AI-generated synchronized videos. For detailed information on the dataset structure and download instructions, please refer to the README file on the Hugging Face page.
+
 ## 🌈 Potential Applications
 
 - Enhancing live musical performances with synchronized visuals
 - Creating interactive, AI-driven art installations
 - Assisting in music video production and visual album creation
 - Developing new tools for music composition and visual art creation
-
-## 🗂️ MIDIvideo Dataset
-
-Due to its large size, the complete MIDIvideo dataset is hosted on Hugging Face:
-
-🔗 [V2MIDI Dataset on Hugging Face](https://huggingface.co/datasets/obvious-research/V2MIDI)
-
-This dataset contains paired MIDI files and AI-generated synchronized videos. For detailed information on the dataset structure and download instructions, please refer to the README file on the Hugging Face page.
 
 ## 🔬 Ongoing Research
 
