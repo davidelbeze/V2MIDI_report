@@ -10,7 +10,7 @@ This folder contains the code for the multilabel classification approach of the 
 - `dataset.py`: Custom dataset class for handling video-MIDI pairs.
 - `data_loader.py`: Custom data loader for processing and yielding video-MIDI pairs.
 - `midi_preprocessing_multiclass.py`: MIDI processing utilities for multiclass representation.
-- `inference.py`: Script for running inference on new video inputs.
+- `eval.py`: Script for running inference on new video inputs.
 - `midi_regeneration_constant_velocity.py`: Utility for regenerating MIDI files from model outputs.
 
 ## Key Features
@@ -24,7 +24,7 @@ This folder contains the code for the multilabel classification approach of the 
 
 1. Adjust paths in the scripts to match your data locations.
 2. Use `v2midi_train.slurm` to submit the training job on a SLURM-managed cluster.
-3. For inference, use `inference.py` after modifying the paths to your model and input video.
+3. For inference, use `eval.py` after modifying the paths to your model and input videos.
 
 ## Dataset
 
