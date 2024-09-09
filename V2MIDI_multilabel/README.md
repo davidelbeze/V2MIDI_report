@@ -13,7 +13,7 @@ This folder contains the code for the multilabel classification approach of the 
 - `midi_preprocessing_multiclass.py`: MIDI processing utilities for multiclass representation.
 - `video2midi.py`: Script for running inference on a single video (of 384 frames, like the ones we have in our training and validation sets) and reconstructing its whole MIDI prediction.
 - `video2midi_any_length.py`: Extension of `video2midi.py` for running inference on a single video of any length and reconstructing its whole MIDI prediction.
-- `eval.py`: Script for running inference on a validation set (or its subset), reconstructing predicted MIDI files and getting accuracy metrics.
+- `eval.py`: Script for running inference on a validation set (or its subset) and getting accuracy metrics.
 - `midi_regeneration_constant_velocity.py`: Utility for regenerating MIDI files from model outputs.
 
 ## Key Features
