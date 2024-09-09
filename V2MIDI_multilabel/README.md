@@ -6,11 +6,13 @@ This folder contains the code for the multilabel classification approach of the 
 
 - `v2midi_train.slurm`: SLURM script for training on a GPU cluster.
 - `train.py`: Main training script for the V2MIDI model.
+- `training_experiments.py`: Script which launches multiple trainings with different settings (learning rate, batch size, etc) in order to compare their performances. 
 - `model.py`: Definition of the V2MIDIModel using a pre-trained R3D-18 architecture.
 - `dataset.py`: Custom dataset class for handling video-MIDI pairs.
 - `data_loader.py`: Custom data loader for processing and yielding video-MIDI pairs.
 - `midi_preprocessing_multiclass.py`: MIDI processing utilities for multiclass representation.
-- `video2midi.py`: Script for running inference on a single video and reconstructing its whole MIDI prediction.
+- `video2midi.py`: Script for running inference on a single video (of 384 frames, like the ones we have in our training and validation sets) and reconstructing its whole MIDI prediction.
+- `video2midi_any_length.py`: Extension of `video2midi.py` for running inference on a single video of any length and reconstructing its whole MIDI prediction.
 - `eval.py`: Script for running inference on a validation set (or its subset), reconstructing predicted MIDI files and getting accuracy metrics.
 - `midi_regeneration_constant_velocity.py`: Utility for regenerating MIDI files from model outputs.
 
