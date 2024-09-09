@@ -27,7 +27,7 @@ This folder contains the code for the multilabel classification approach of the 
 
 1. Adjust paths in the scripts to match your data locations.
 2. Use `v2midi_train.slurm` to submit the training job on a SLURM-managed cluster.
-3. For inference, use `video2midi.py` after modifying the paths to your model and input video.
+3. For inference, use `video2midi.py` or `video2midi_any_length.py` after modifying the paths to your model and input video.
 
 ## Dataset
 
